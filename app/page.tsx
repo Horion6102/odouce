@@ -1,14 +1,9 @@
+import Navbar from "./components/navbar";
+
 export default function Home() {
   return (
     <div>
-      <nav>
-        <ul>
-          <li>Addoussisseur d'eau</li>
-          <li>Piscine</li>
-          <li>Contact</li>
-        </ul>
-        <img src="" alt="" />
-      </nav>
+      <Navbar />
       <div>
         <h1>Adoucisseur</h1>
       </div>
@@ -47,17 +42,29 @@ export default function Home() {
           <article>
             <svg></svg>
             <h4>Economie d’énergie</h4>
-            <p>Lorem ipsum dolor sit amet consectetur. Elementum viverra augue arcu aliquet amet neque. Eget euismod ultrices varius integer curabitur phasellus ipsum gravida amet. </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Elementum viverra augue
+              arcu aliquet amet neque. Eget euismod ultrices varius integer
+              curabitur phasellus ipsum gravida amet.{" "}
+            </p>
           </article>
           <article>
             <svg></svg>
             <h4>Economie d’énergie</h4>
-            <p>Lorem ipsum dolor sit amet consectetur. Elementum viverra augue arcu aliquet amet neque. Eget euismod ultrices varius integer curabitur phasellus ipsum gravida amet. </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Elementum viverra augue
+              arcu aliquet amet neque. Eget euismod ultrices varius integer
+              curabitur phasellus ipsum gravida amet.{" "}
+            </p>
           </article>
           <article>
             <svg></svg>
             <h4>Economie d’énergie</h4>
-            <p>Lorem ipsum dolor sit amet consectetur. Elementum viverra augue arcu aliquet amet neque. Eget euismod ultrices varius integer curabitur phasellus ipsum gravida amet. </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Elementum viverra augue
+              arcu aliquet amet neque. Eget euismod ultrices varius integer
+              curabitur phasellus ipsum gravida amet.{" "}
+            </p>
           </article>
         </aside>
         <h3>Pourquoi s’équiper d’un adoucisseur d’eau ?</h3>
@@ -71,7 +78,7 @@ export default function Home() {
         <div>
           <div>
             <img src="" alt="" />
-            <a href=""></a>            
+            <a href=""></a>
           </div>
           <div>
             <img src="" alt="" />
