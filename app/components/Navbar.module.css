@@ -1,0 +1,28 @@
+.globalContainer {
+  position: sticky;
+  top: 0;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.container {
+  display: flex;
+  list-style: none;
+  padding: 48px;
+}
+
+.item {
+  font-size: 18px;
+  padding: 10px 32px;
+}
+
+.itemRight {
+  margin-left: auto;
+}
+
+.itemLogo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+}
