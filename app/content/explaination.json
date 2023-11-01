@@ -1,0 +1,18 @@
+{
+  "explain": {
+    "swimmingPool": {
+      "title": "O'Douce Service",
+      "firstText": "Lorem ipsum dolor sit amet consectetur. Viverra sed arcu sed facilisis est tortor a placerat. Est hendrerit enim dui laoreet lorem fermentum cras nibh facilisis. Ac a aliquam non ullamcorper facilisis sagittis. Ut integer sollicitudin amet iaculis volutpat.",
+      "secondText": "Lorem ipsum dolor sit amet consectetur. Viverra sed arcu sed facilisis est tortor a placerat.",
+      "button": "Contacter",
+      "image": "/images/swimingpool.png"
+    },
+    "addoucisseur": {
+      "title": "O'Douce Service",
+      "firstText": "Lorem ipsum dolor sit amet consectetur. Viverra sed arcu sed facilisis est tortor a placerat. Est hendrerit enim dui laoreet lorem fermentum cras nibh facilisis. Ac a aliquam non ullamcorper facilisis sagittis. Ut integer sollicitudin amet iaculis volutpat.",
+      "secondText": "Lorem ipsum dolor sit amet consectetur. Viverra sed arcu sed facilisis est tortor a placerat.",
+      "button": "Contacter",
+      "image": "/images/swimingpool.png"
+    }
+  }
+}

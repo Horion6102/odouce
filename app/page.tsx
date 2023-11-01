@@ -1,43 +1,18 @@
 import Navbar from "./components/Navbar";
+import Banner from "./components/Banner";
+import Content from "./components/Content";
+import text from "./content/explaination.json";
+import style from "./Page.module.css";
 
 export default function Home() {
+  const content = text.explain;
   return (
     <div>
       <Navbar />
-      <div>
-        <h1>Adoucisseur</h1>
-      </div>
+      <Banner />
       <main>
-        <article>
-          <div>
-            <h3>O Douce Services</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Viverra sed arcu sed
-              facilisis est tortor a placerat. Est hendrerit enim dui laoreet
-              lorem fermentum cras nibh facilisis. Ac a aliquam non ullamcorper
-              facilisis sagittis. Ut integer sollicitudin amet iaculis volutpat.
-              Lorem ipsum dolor sit amet consectetur. Viverra sed arcu sed
-              facilisis est tortor a placerat.{" "}
-            </p>
-            <button>Contacter</button>
-          </div>
-          <img src="" alt="" />
-        </article>
-        <article>
-          <div>
-            <img src="" alt="" />
-            <h3>O Douce Services</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Viverra sed arcu sed
-              facilisis est tortor a placerat. Est hendrerit enim dui laoreet
-              lorem fermentum cras nibh facilisis. Ac a aliquam non ullamcorper
-              facilisis sagittis. Ut integer sollicitudin amet iaculis volutpat.
-              Lorem ipsum dolor sit amet consectetur. Viverra sed arcu sed
-              facilisis est tortor a placerat.{" "}
-            </p>
-            <button>Contacter</button>
-          </div>
-        </article>
+        <Content dataContent={content.swimmingPool} />
+        <Content dataContent={content.addoucisseur} reverse wavingBackground />
         <aside>
           <article>
             <svg></svg>

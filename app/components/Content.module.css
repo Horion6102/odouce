@@ -1,0 +1,68 @@
+.globalContainer {
+  display: flex;
+  padding: 48px 15%;
+}
+
+.globalContainerBackground {
+  display: flex;
+  padding: 48px 15%;
+  width: 100vw;
+  background-image: url("../../public/images/wavingBackground.svg");
+  background-size: contain;
+  background-position: center;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding-right: 103px;
+  order: 1;
+}
+
+.contentContainerReverse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 48px;
+  padding-left: 103px;
+  order: 1;
+}
+
+.image {
+  order: 2;
+  width: 50%;
+  object-fit: contain;
+}
+
+.imageReverse {
+  order: 0;
+  width: 50%;
+  object-fit: contain;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.button {
+  border-radius: 10px;
+  background: #5c9dac;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px 20px;
+  width: 20%;
+}
+
+.button:hover {
+  cursor: pointer;
+}
