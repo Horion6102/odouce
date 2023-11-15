@@ -22,6 +22,7 @@ export default function Content(props: propsType) {
           ? style.globalContainerBackground
           : style.globalContainer
       }
+      id={props.wavingBackground ? "piscine" : "addoucisseur"}
     >
       <div
         className={

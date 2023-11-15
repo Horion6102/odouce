@@ -6,9 +6,9 @@
 .globalContainerBackground {
   display: flex;
   padding: 48px 15%;
-  width: 100vw;
+  min-height: 960px;
   background-image: url("../../public/images/wavingBackground.svg");
-  background-size: contain;
+  background-size: 100% 100%;
   background-position: center;
 }
 
@@ -60,7 +60,7 @@
   font-size: 15px;
   font-weight: 400;
   padding: 10px 20px;
-  width: 20%;
+  width: 10em;
 }
 
 .button:hover {

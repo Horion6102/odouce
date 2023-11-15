@@ -1,0 +1,39 @@
+.globalContainer {
+  padding: 64px 15%;
+  background-color: #5c9dac;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerContact {
+  padding-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.title {
+  padding-bottom: 16px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  margin: 8px 16px;
+  font-size: 2em;
+}

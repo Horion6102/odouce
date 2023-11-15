@@ -1,0 +1,25 @@
+.globalContainer {
+  padding: 86px 15%;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 22.5%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 18px;
+}
+
+.svg {
+  max-width: 75px;
+}

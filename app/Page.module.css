@@ -1,0 +1,6 @@
+.header {
+  background: url("../public/images/backgroundSplash.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100% 925px;
+}

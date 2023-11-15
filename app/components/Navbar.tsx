@@ -6,17 +6,17 @@ export default function Navbar() {
     <nav className={style.globalContainer}>
       <ul className={style.container}>
         <li>
-          <a href="" className={style.item}>
-            Addoussisseur d'eau
+          <a href="#addoucisseur" className={style.item}>
+            Addoucisseur d'eau
           </a>
         </li>
         <li>
-          <a href="" className={style.item}>
+          <a href="#piscine" className={style.item}>
             Piscines
           </a>
         </li>
         <li className={style.itemRight}>
-          <a href="" className={style.item}>
+          <a href="#contact" className={style.item}>
             Contact
           </a>
         </li>

@@ -1,0 +1,34 @@
+.globalContainer {
+  display: flex;
+  padding: 64px 10%;
+  justify-content: space-between;
+}
+
+.secondMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 24px;
+}
+
+.logo {
+  width: 350px;
+  padding-bottom: 64px;
+}
+
+.facebookLink {
+  position: absolute;
+  right: -75px;
+  bottom: -5px;
+}
+
+.facebook {
+  width: 50px;
+}
